@@ -28,7 +28,7 @@ private void tc1() throws InterruptedException {
 	WebElement textEmail = driver.findElement(By.id("input_comp-ka7avp7n"));
 		textEmail.sendKeys("Pushpa");
 		WebElement txtPwd = driver.findElement(By.id("input_comp-ka7avp7w"));
-		txtPwd.sendKeys("123456");
+		txtPwd.sendKeys("456789");
 	
 		WebElement btLogin = driver.findElement(By.xpath("//button[@class='kuTaGy wixui-button zKbzSQ']"));
 		btLogin.click();
